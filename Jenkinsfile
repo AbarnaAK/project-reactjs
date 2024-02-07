@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build and Push Dev Image') {
             when {
-                changeset 'dev/**'
+                changeset 'origin/dev'
             }
             steps {
                 script {
@@ -15,7 +15,7 @@ pipeline {
 
         stage('Build and Push Prod Image') {
             when {
-                changeset 'master'
+                changeset 'origin/master'
             }
             steps {
                 script {
