@@ -1,3 +1,9 @@
+Deployed site url : 52.66.251.12
+
+DOcker images name : abarna272/react-app , abarna272/dev , abarna272/prod
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
